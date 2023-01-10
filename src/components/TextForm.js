@@ -23,7 +23,7 @@ export default function TextForm(props) {
         props.showAlert("Text Cleared !","success");
 
     } 
-    
+     
     const handleCopy=() =>{
         var text = document.getElementById("myBox");
         text.select();
